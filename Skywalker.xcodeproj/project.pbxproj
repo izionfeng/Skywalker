@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A614F34517B24A7100951614 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A614F34417B24A7100951614 /* UIKit.framework */; };
+		A614F34717B24A7100951614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A614F34617B24A7100951614 /* Foundation.framework */; };
+		A614F34917B24A7100951614 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A614F34817B24A7100951614 /* CoreGraphics.framework */; };
+		A614F34F17B24A7100951614 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A614F34D17B24A7100951614 /* InfoPlist.strings */; };
+		A614F35117B24A7100951614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F35017B24A7100951614 /* main.m */; };
+		A614F35517B24A7100951614 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F35417B24A7100951614 /* AppDelegate.m */; };
+		A614F35717B24A7100951614 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A614F35617B24A7100951614 /* Default.png */; };
+		A614F35917B24A7100951614 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A614F35817B24A7100951614 /* Default@2x.png */; };
+		A614F35B17B24A7100951614 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A614F35A17B24A7100951614 /* Default-568h@2x.png */; };
+		A614F35E17B24A7100951614 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F35D17B24A7100951614 /* ViewController.m */; };
+		A614F36117B24A7100951614 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A614F35F17B24A7100951614 /* ViewController_iPhone.xib */; };
+		A614F36417B24A7100951614 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A614F36217B24A7100951614 /* ViewController_iPad.xib */; };
+		A614F36D17B24B6900951614 /* UniverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F36B17B24B6900951614 /* UniverseViewController.m */; };
+		A614F36E17B24B6900951614 /* UniverseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A614F36C17B24B6900951614 /* UniverseViewController.xib */; };
+		A614F37117B24D7200951614 /* DisplayTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F37017B24D7200951614 /* DisplayTimer.m */; };
+		A614F37317B24D8B00951614 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A614F37217B24D8B00951614 /* QuartzCore.framework */; };
+		A614F37617B253E900951614 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F37517B253E900951614 /* Planet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A614F34117B24A7100951614 /* Skywalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skywalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A614F34417B24A7100951614 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A614F34617B24A7100951614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A614F34817B24A7100951614 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A614F34C17B24A7100951614 /* Skywalker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Skywalker-Info.plist"; sourceTree = "<group>"; };
+		A614F34E17B24A7100951614 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A614F35017B24A7100951614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A614F35217B24A7100951614 /* Skywalker-Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Skywalker-Prefix.h"; sourceTree = "<group>"; };
+		A614F35317B24A7100951614 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A614F35417B24A7100951614 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A614F35617B24A7100951614 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A614F35817B24A7100951614 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A614F35A17B24A7100951614 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A614F35C17B24A7100951614 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A614F35D17B24A7100951614 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A614F36017B24A7100951614 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		A614F36317B24A7100951614 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A614F36A17B24B6900951614 /* UniverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniverseViewController.h; sourceTree = "<group>"; };
+		A614F36B17B24B6900951614 /* UniverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniverseViewController.m; sourceTree = "<group>"; };
+		A614F36C17B24B6900951614 /* UniverseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniverseViewController.xib; sourceTree = "<group>"; };
+		A614F36F17B24D7200951614 /* DisplayTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayTimer.h; sourceTree = "<group>"; };
+		A614F37017B24D7200951614 /* DisplayTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayTimer.m; sourceTree = "<group>"; };
+		A614F37217B24D8B00951614 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A614F37417B253E900951614 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet.h; path = ../../Skywalker_s/Skywalker/Planet.h; sourceTree = "<group>"; };
+		A614F37517B253E900951614 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Planet.m; path = ../../Skywalker_s/Skywalker/Planet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A614F33E17B24A7100951614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A614F37317B24D8B00951614 /* QuartzCore.framework in Frameworks */,
+				A614F34517B24A7100951614 /* UIKit.framework in Frameworks */,
+				A614F34717B24A7100951614 /* Foundation.framework in Frameworks */,
+				A614F34917B24A7100951614 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A614F33817B24A7100951614 = {
+			isa = PBXGroup;
+			children = (
+				A614F34A17B24A7100951614 /* Skywalker */,
+				A614F34317B24A7100951614 /* Frameworks */,
+				A614F34217B24A7100951614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A614F34217B24A7100951614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A614F34117B24A7100951614 /* Skywalker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A614F34317B24A7100951614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A614F37217B24D8B00951614 /* QuartzCore.framework */,
+				A614F34417B24A7100951614 /* UIKit.framework */,
+				A614F34617B24A7100951614 /* Foundation.framework */,
+				A614F34817B24A7100951614 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A614F34A17B24A7100951614 /* Skywalker */ = {
+			isa = PBXGroup;
+			children = (
+				A614F37717B2540700951614 /* Class */,
+				A614F35317B24A7100951614 /* AppDelegate.h */,
+				A614F35417B24A7100951614 /* AppDelegate.m */,
+				A614F35C17B24A7100951614 /* ViewController.h */,
+				A614F35D17B24A7100951614 /* ViewController.m */,
+				A614F35F17B24A7100951614 /* ViewController_iPhone.xib */,
+				A614F36217B24A7100951614 /* ViewController_iPad.xib */,
+				A614F34B17B24A7100951614 /* Supporting Files */,
+			);
+			path = Skywalker;
+			sourceTree = "<group>";
+		};
+		A614F34B17B24A7100951614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A614F34C17B24A7100951614 /* Skywalker-Info.plist */,
+				A614F34D17B24A7100951614 /* InfoPlist.strings */,
+				A614F35017B24A7100951614 /* main.m */,
+				A614F35217B24A7100951614 /* Skywalker-Prefix.h */,
+				A614F35617B24A7100951614 /* Default.png */,
+				A614F35817B24A7100951614 /* Default@2x.png */,
+				A614F35A17B24A7100951614 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A614F37717B2540700951614 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A614F36A17B24B6900951614 /* UniverseViewController.h */,
+				A614F36B17B24B6900951614 /* UniverseViewController.m */,
+				A614F36C17B24B6900951614 /* UniverseViewController.xib */,
+				A614F37417B253E900951614 /* Planet.h */,
+				A614F37517B253E900951614 /* Planet.m */,
+				A614F36F17B24D7200951614 /* DisplayTimer.h */,
+				A614F37017B24D7200951614 /* DisplayTimer.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A614F34017B24A7100951614 /* Skywalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A614F36717B24A7100951614 /* Build configuration list for PBXNativeTarget "Skywalker" */;
+			buildPhases = (
+				A614F33D17B24A7100951614 /* Sources */,
+				A614F33E17B24A7100951614 /* Frameworks */,
+				A614F33F17B24A7100951614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skywalker;
+			productName = Skywalker;
+			productReference = A614F34117B24A7100951614 /* Skywalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A614F33917B24A7100951614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Zion;
+			};
+			buildConfigurationList = A614F33C17B24A7100951614 /* Build configuration list for PBXProject "Skywalker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A614F33817B24A7100951614;
+			productRefGroup = A614F34217B24A7100951614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A614F34017B24A7100951614 /* Skywalker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A614F33F17B24A7100951614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A614F34F17B24A7100951614 /* InfoPlist.strings in Resources */,
+				A614F35717B24A7100951614 /* Default.png in Resources */,
+				A614F35917B24A7100951614 /* Default@2x.png in Resources */,
+				A614F35B17B24A7100951614 /* Default-568h@2x.png in Resources */,
+				A614F36117B24A7100951614 /* ViewController_iPhone.xib in Resources */,
+				A614F36417B24A7100951614 /* ViewController_iPad.xib in Resources */,
+				A614F36E17B24B6900951614 /* UniverseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A614F33D17B24A7100951614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A614F35117B24A7100951614 /* main.m in Sources */,
+				A614F35517B24A7100951614 /* AppDelegate.m in Sources */,
+				A614F35E17B24A7100951614 /* ViewController.m in Sources */,
+				A614F36D17B24B6900951614 /* UniverseViewController.m in Sources */,
+				A614F37117B24D7200951614 /* DisplayTimer.m in Sources */,
+				A614F37617B253E900951614 /* Planet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A614F34D17B24A7100951614 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A614F34E17B24A7100951614 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A614F35F17B24A7100951614 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A614F36017B24A7100951614 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A614F36217B24A7100951614 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A614F36317B24A7100951614 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A614F36517B24A7100951614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A614F36617B24A7100951614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A614F36817B24A7100951614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skywalker/Skywalker-Prefix.h";
+				INFOPLIST_FILE = "Skywalker/Skywalker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A614F36917B24A7100951614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skywalker/Skywalker-Prefix.h";
+				INFOPLIST_FILE = "Skywalker/Skywalker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A614F33C17B24A7100951614 /* Build configuration list for PBXProject "Skywalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A614F36517B24A7100951614 /* Debug */,
+				A614F36617B24A7100951614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A614F36717B24A7100951614 /* Build configuration list for PBXNativeTarget "Skywalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A614F36817B24A7100951614 /* Debug */,
+				A614F36917B24A7100951614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A614F33917B24A7100951614 /* Project object */;
+}
