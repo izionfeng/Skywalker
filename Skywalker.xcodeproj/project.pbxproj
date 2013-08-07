@@ -21,9 +21,14 @@
 		A614F36417B24A7100951614 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A614F36217B24A7100951614 /* ViewController_iPad.xib */; };
 		A614F36D17B24B6900951614 /* UniverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F36B17B24B6900951614 /* UniverseViewController.m */; };
 		A614F36E17B24B6900951614 /* UniverseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A614F36C17B24B6900951614 /* UniverseViewController.xib */; };
-		A614F37117B24D7200951614 /* DisplayTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F37017B24D7200951614 /* DisplayTimer.m */; };
+		A614F37117B24D7200951614 /* TheTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F37017B24D7200951614 /* TheTime.m */; };
 		A614F37317B24D8B00951614 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A614F37217B24D8B00951614 /* QuartzCore.framework */; };
-		A614F37617B253E900951614 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F37517B253E900951614 /* Planet.m */; };
+		A614F3A717B26A1800951614 /* ForceVector.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3A017B26A1800951614 /* ForceVector.m */; };
+		A614F3A817B26A1800951614 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3A217B26A1800951614 /* Planet.m */; };
+		A614F3A917B26A1800951614 /* SkyWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3A417B26A1800951614 /* SkyWalker.m */; };
+		A614F3AA17B26A1800951614 /* VelocityVector.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3A617B26A1800951614 /* VelocityVector.m */; };
+		A614F3AD17B26A3200951614 /* Galaxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3AC17B26A3200951614 /* Galaxy.m */; };
+		A614F3B017B26ED400951614 /* Cluster.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3AF17B26ED400951614 /* Cluster.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,11 +52,21 @@
 		A614F36A17B24B6900951614 /* UniverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniverseViewController.h; sourceTree = "<group>"; };
 		A614F36B17B24B6900951614 /* UniverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniverseViewController.m; sourceTree = "<group>"; };
 		A614F36C17B24B6900951614 /* UniverseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniverseViewController.xib; sourceTree = "<group>"; };
-		A614F36F17B24D7200951614 /* DisplayTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayTimer.h; sourceTree = "<group>"; };
-		A614F37017B24D7200951614 /* DisplayTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayTimer.m; sourceTree = "<group>"; };
+		A614F36F17B24D7200951614 /* TheTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheTime.h; sourceTree = "<group>"; };
+		A614F37017B24D7200951614 /* TheTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheTime.m; sourceTree = "<group>"; };
 		A614F37217B24D8B00951614 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		A614F37417B253E900951614 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet.h; path = ../../Skywalker_s/Skywalker/Planet.h; sourceTree = "<group>"; };
-		A614F37517B253E900951614 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Planet.m; path = ../../Skywalker_s/Skywalker/Planet.m; sourceTree = "<group>"; };
+		A614F39F17B26A1800951614 /* ForceVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceVector.h; sourceTree = "<group>"; };
+		A614F3A017B26A1800951614 /* ForceVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceVector.m; sourceTree = "<group>"; };
+		A614F3A117B26A1800951614 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		A614F3A217B26A1800951614 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		A614F3A317B26A1800951614 /* SkyWalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyWalker.h; sourceTree = "<group>"; };
+		A614F3A417B26A1800951614 /* SkyWalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyWalker.m; sourceTree = "<group>"; };
+		A614F3A517B26A1800951614 /* VelocityVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VelocityVector.h; sourceTree = "<group>"; };
+		A614F3A617B26A1800951614 /* VelocityVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VelocityVector.m; sourceTree = "<group>"; };
+		A614F3AB17B26A3200951614 /* Galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Galaxy.h; sourceTree = "<group>"; };
+		A614F3AC17B26A3200951614 /* Galaxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Galaxy.m; sourceTree = "<group>"; };
+		A614F3AE17B26ED400951614 /* Cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cluster.h; sourceTree = "<group>"; };
+		A614F3AF17B26ED400951614 /* Cluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cluster.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,13 +144,23 @@
 		A614F37717B2540700951614 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				A614F39F17B26A1800951614 /* ForceVector.h */,
+				A614F3A017B26A1800951614 /* ForceVector.m */,
+				A614F3A117B26A1800951614 /* Planet.h */,
+				A614F3A217B26A1800951614 /* Planet.m */,
+				A614F3A317B26A1800951614 /* SkyWalker.h */,
+				A614F3A417B26A1800951614 /* SkyWalker.m */,
+				A614F3A517B26A1800951614 /* VelocityVector.h */,
+				A614F3A617B26A1800951614 /* VelocityVector.m */,
 				A614F36A17B24B6900951614 /* UniverseViewController.h */,
 				A614F36B17B24B6900951614 /* UniverseViewController.m */,
 				A614F36C17B24B6900951614 /* UniverseViewController.xib */,
-				A614F37417B253E900951614 /* Planet.h */,
-				A614F37517B253E900951614 /* Planet.m */,
-				A614F36F17B24D7200951614 /* DisplayTimer.h */,
-				A614F37017B24D7200951614 /* DisplayTimer.m */,
+				A614F36F17B24D7200951614 /* TheTime.h */,
+				A614F37017B24D7200951614 /* TheTime.m */,
+				A614F3AB17B26A3200951614 /* Galaxy.h */,
+				A614F3AC17B26A3200951614 /* Galaxy.m */,
+				A614F3AE17B26ED400951614 /* Cluster.h */,
+				A614F3AF17B26ED400951614 /* Cluster.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -212,8 +237,13 @@
 				A614F35517B24A7100951614 /* AppDelegate.m in Sources */,
 				A614F35E17B24A7100951614 /* ViewController.m in Sources */,
 				A614F36D17B24B6900951614 /* UniverseViewController.m in Sources */,
-				A614F37117B24D7200951614 /* DisplayTimer.m in Sources */,
-				A614F37617B253E900951614 /* Planet.m in Sources */,
+				A614F37117B24D7200951614 /* TheTime.m in Sources */,
+				A614F3A717B26A1800951614 /* ForceVector.m in Sources */,
+				A614F3A817B26A1800951614 /* Planet.m in Sources */,
+				A614F3A917B26A1800951614 /* SkyWalker.m in Sources */,
+				A614F3AA17B26A1800951614 /* VelocityVector.m in Sources */,
+				A614F3AD17B26A3200951614 /* Galaxy.m in Sources */,
+				A614F3B017B26ED400951614 /* Cluster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
