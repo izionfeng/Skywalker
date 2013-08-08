@@ -7,14 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Cluster.h"
 
 @class Planet;
-@interface Galaxy : NSObject
+@interface Galaxy : Cluster
 
--(NSArray*)planets;
--(void)addPlanet:(Planet*)planet;
--(void)removePlanet:(Planet*)planet;
-
--(Galaxy*)galaxy;
++(Galaxy*)galaxy;
 
 @end

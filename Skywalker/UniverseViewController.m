@@ -7,8 +7,11 @@
 //
 
 #import "UniverseViewController.h"
+#import "TheTime.h"
 
-@interface UniverseViewController ()
+@interface UniverseViewController ()<TimeRunDelegate>
+
+@property (nonatomic, strong) TheTime *universeTime;
 
 @end
 
@@ -33,6 +36,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - TimeRunDelegate -
+-(void)displayUpdate:(NSTimeInterval)passed
+{
+    
 }
 
 @end

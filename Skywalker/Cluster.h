@@ -10,8 +10,10 @@
 
 @interface Cluster : NSObject
 
--(NSArray*)memberList;
 -(void)addMember:(id)member;
 -(void)removeMember:(id)member;
+
+-(void)beginEnumeration;
+-(id)nextMember;
 
 @end
