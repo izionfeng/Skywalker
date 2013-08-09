@@ -27,8 +27,9 @@
 		A614F3A917B26A1800951614 /* SkyWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3A417B26A1800951614 /* SkyWalker.m */; };
 		A614F3AD17B26A3200951614 /* Galaxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3AC17B26A3200951614 /* Galaxy.m */; };
 		A614F3B017B26ED400951614 /* Cluster.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3AF17B26ED400951614 /* Cluster.m */; };
-		A6D84D0017B3A2CB0003741E /* PhysicalDef.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D84CFF17B3A2CB0003741E /* PhysicalDef.m */; };
-		A6E4B20B17B38519005515C8 /* MassObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E4B20A17B38518005515C8 /* MassObject.m */; };
+		A63569DB17B4C6EE00A05F11 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63569D917B4C6EE00A05F11 /* Vector.cpp */; };
+		A63569DE17B4C70900A05F11 /* ScientificNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63569DC17B4C70900A05F11 /* ScientificNumber.cpp */; };
+		A6E4B20B17B38519005515C8 /* MassObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E4B20A17B38518005515C8 /* MassObject.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,10 +64,14 @@
 		A614F3AC17B26A3200951614 /* Galaxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Galaxy.m; sourceTree = "<group>"; };
 		A614F3AE17B26ED400951614 /* Cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cluster.h; sourceTree = "<group>"; };
 		A614F3AF17B26ED400951614 /* Cluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cluster.m; sourceTree = "<group>"; };
-		A6D84CFF17B3A2CB0003741E /* PhysicalDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicalDef.m; sourceTree = "<group>"; };
-		A6E4B20617B38428005515C8 /* PhysicalDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicalDef.h; sourceTree = "<group>"; };
+		A6306AAF17B482280002C0A8 /* MathDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathDef.h; sourceTree = "<group>"; };
+		A63569D917B4C6EE00A05F11 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		A63569DA17B4C6EE00A05F11 /* Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Vector.h; sourceTree = "<group>"; };
+		A63569DC17B4C70900A05F11 /* ScientificNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScientificNumber.cpp; sourceTree = "<group>"; };
+		A63569DD17B4C70900A05F11 /* ScientificNumber.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = ScientificNumber.h; sourceTree = "<group>"; };
+		A63569DF17B4C7A300A05F11 /* ConstDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstDef.h; sourceTree = "<group>"; };
 		A6E4B20917B38518005515C8 /* MassObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassObject.h; sourceTree = "<group>"; };
-		A6E4B20A17B38518005515C8 /* MassObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MassObject.m; sourceTree = "<group>"; };
+		A6E4B20A17B38518005515C8 /* MassObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MassObject.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,10 +149,7 @@
 		A614F37717B2540700951614 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				A6E4B20617B38428005515C8 /* PhysicalDef.h */,
-				A6D84CFF17B3A2CB0003741E /* PhysicalDef.m */,
-				A6E4B20917B38518005515C8 /* MassObject.h */,
-				A6E4B20A17B38518005515C8 /* MassObject.m */,
+				A63569D817B4C6D400A05F11 /* MathDef */,
 				A614F3AE17B26ED400951614 /* Cluster.h */,
 				A614F3AF17B26ED400951614 /* Cluster.m */,
 				A614F3AB17B26A3200951614 /* Galaxy.h */,
@@ -163,6 +165,21 @@
 				A614F37017B24D7200951614 /* TheTime.m */,
 			);
 			name = Class;
+			sourceTree = "<group>";
+		};
+		A63569D817B4C6D400A05F11 /* MathDef */ = {
+			isa = PBXGroup;
+			children = (
+				A6306AAF17B482280002C0A8 /* MathDef.h */,
+				A63569DF17B4C7A300A05F11 /* ConstDef.h */,
+				A63569DD17B4C70900A05F11 /* ScientificNumber.h */,
+				A63569DC17B4C70900A05F11 /* ScientificNumber.cpp */,
+				A63569DA17B4C6EE00A05F11 /* Vector.h */,
+				A63569D917B4C6EE00A05F11 /* Vector.cpp */,
+				A6E4B20917B38518005515C8 /* MassObject.h */,
+				A6E4B20A17B38518005515C8 /* MassObject.cpp */,
+			);
+			name = MathDef;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +259,9 @@
 				A614F3A917B26A1800951614 /* SkyWalker.m in Sources */,
 				A614F3AD17B26A3200951614 /* Galaxy.m in Sources */,
 				A614F3B017B26ED400951614 /* Cluster.m in Sources */,
-				A6E4B20B17B38519005515C8 /* MassObject.m in Sources */,
-				A6D84D0017B3A2CB0003741E /* PhysicalDef.m in Sources */,
+				A6E4B20B17B38519005515C8 /* MassObject.cpp in Sources */,
+				A63569DB17B4C6EE00A05F11 /* Vector.cpp in Sources */,
+				A63569DE17B4C70900A05F11 /* ScientificNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +320,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +345,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
