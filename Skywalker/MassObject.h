@@ -31,9 +31,9 @@ public:
     const ScientificNumber getMass()const;
     const ScientificNumber getGravitationRadius()const;
     const ScientificNumber getGravity()const;
+    void updateVelocityAfterTimeInterval(const double timeInterval);
     
 private:
-    void updateVelocityAfterTimeInterval(const double timeInterval);
     void calculateGravitationRadius();
     void calculateGravity();
 };

@@ -7,13 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ObjectView.h"
 
-@interface SkyWalker : UIView
-
-@property (nonatomic, assign, readonly) CGFloat mass;//kg
-@property (nonatomic, assign)   CGPoint direction;
-@property (nonatomic, assign)   CGFloat velocity;
-
-+(id)defaultSkyWalker;
+@interface SkyWalker : ObjectView
 
 @end

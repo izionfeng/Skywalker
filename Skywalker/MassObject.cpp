@@ -71,13 +71,12 @@ const ScientificNumber MassObject::getGravity()const
 
 void MassObject::calculateGravitationRadius()
 {
-    gravitationRadius=(radius)*2;
+    gravitationRadius=(radius)*4;
 }
 
 void MassObject::calculateGravity()
 {
-    
-    
+    gravity=10000;
 }
 
 void MassObject::updateVelocityAfterTimeInterval(const double timeInterval)

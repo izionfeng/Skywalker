@@ -8,6 +8,8 @@
 
 #import "Planet.h"
 
+#define LengthFactor (ScientificNumber(5,5))
+
 @implementation Planet
 
 - (id)initWithFrame:(CGRect)frame
@@ -19,23 +21,20 @@
     return self;
 }
 
--(void)__init
+-(CGFloat)viewRadius
 {
-    self.layer.cornerRadius=_radius;
+    return (self.massObj->getRadius()/LengthFactor).floatValue();
 }
 
--(id)initWithMass:(CGFloat)mass radius:(CGFloat)radius
+-(CGFloat)viewGravitationRadius
 {
-    self=[super initWithFrame:CGRectMake(0, 0, radius*2, radius*2)];
-    if (self)
-    {
-        _mass=mass;
-        _radius=radius;
-        [self __init];
-    }
-    return self;
+    return (self.massObj->getGravitationRadius()/LengthFactor).floatValue();
 }
 
+-(UIColor*)colorWithMass:(ScientificNumber)mass radius:(ScientificNumber)radius
+{
+    return [UIColor whiteColor];
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

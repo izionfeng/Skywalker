@@ -7,16 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ObjectView.h"
 
-@interface Planet : UIView
-
-@property (nonatomic, assign, readonly) CGFloat mass;//kg
-@property (nonatomic, assign, readonly) CGFloat radius;//m
-
-//optional
-//近地气体阻尼
-//形状
-
-- initWithMass:(CGFloat)mass radius:(CGFloat)radius;
+@interface Planet : ObjectView
 
 @end

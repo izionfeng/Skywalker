@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+@class ObjectView;
 @interface Cluster : NSObject
 
--(void)addMember:(id)member;
--(void)removeMember:(id)member;
+@property (nonatomic, copy) NSString *name;
+
+-(void)addMember:(ObjectView*)member;
+-(void)removeMember:(ObjectView*)member;
 
 -(void)beginEnumeration;
 -(id)nextMember;

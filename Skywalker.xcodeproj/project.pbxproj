@@ -19,16 +19,17 @@
 		A614F35E17B24A7100951614 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F35D17B24A7100951614 /* ViewController.m */; };
 		A614F36117B24A7100951614 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A614F35F17B24A7100951614 /* ViewController_iPhone.xib */; };
 		A614F36417B24A7100951614 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A614F36217B24A7100951614 /* ViewController_iPad.xib */; };
-		A614F36D17B24B6900951614 /* UniverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F36B17B24B6900951614 /* UniverseViewController.m */; };
+		A614F36D17B24B6900951614 /* UniverseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A614F36B17B24B6900951614 /* UniverseViewController.mm */; };
 		A614F36E17B24B6900951614 /* UniverseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A614F36C17B24B6900951614 /* UniverseViewController.xib */; };
 		A614F37117B24D7200951614 /* TheTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F37017B24D7200951614 /* TheTime.m */; };
 		A614F37317B24D8B00951614 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A614F37217B24D8B00951614 /* QuartzCore.framework */; };
-		A614F3A817B26A1800951614 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3A217B26A1800951614 /* Planet.m */; };
-		A614F3A917B26A1800951614 /* SkyWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3A417B26A1800951614 /* SkyWalker.m */; };
-		A614F3AD17B26A3200951614 /* Galaxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3AC17B26A3200951614 /* Galaxy.m */; };
+		A614F3A817B26A1800951614 /* Planet.mm in Sources */ = {isa = PBXBuildFile; fileRef = A614F3A217B26A1800951614 /* Planet.mm */; };
+		A614F3A917B26A1800951614 /* SkyWalker.mm in Sources */ = {isa = PBXBuildFile; fileRef = A614F3A417B26A1800951614 /* SkyWalker.mm */; };
 		A614F3B017B26ED400951614 /* Cluster.m in Sources */ = {isa = PBXBuildFile; fileRef = A614F3AF17B26ED400951614 /* Cluster.m */; };
 		A63569DB17B4C6EE00A05F11 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63569D917B4C6EE00A05F11 /* Vector.cpp */; };
 		A63569DE17B4C70900A05F11 /* ScientificNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A63569DC17B4C70900A05F11 /* ScientificNumber.cpp */; };
+		A63DA1EF17B5D60400E5347C /* ObjectView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A63DA1EE17B5D60300E5347C /* ObjectView.mm */; };
+		A63DA1F217B61D5600E5347C /* Galaxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = A63DA1F117B61D5600E5347C /* Galaxy.mm */; };
 		A6E4B20B17B38519005515C8 /* MassObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E4B20A17B38518005515C8 /* MassObject.cpp */; };
 /* End PBXBuildFile section */
 
@@ -51,17 +52,15 @@
 		A614F36017B24A7100951614 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		A614F36317B24A7100951614 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		A614F36A17B24B6900951614 /* UniverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniverseViewController.h; sourceTree = "<group>"; };
-		A614F36B17B24B6900951614 /* UniverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniverseViewController.m; sourceTree = "<group>"; };
+		A614F36B17B24B6900951614 /* UniverseViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UniverseViewController.mm; sourceTree = "<group>"; };
 		A614F36C17B24B6900951614 /* UniverseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniverseViewController.xib; sourceTree = "<group>"; };
 		A614F36F17B24D7200951614 /* TheTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheTime.h; sourceTree = "<group>"; };
 		A614F37017B24D7200951614 /* TheTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheTime.m; sourceTree = "<group>"; };
 		A614F37217B24D8B00951614 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A614F3A117B26A1800951614 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
-		A614F3A217B26A1800951614 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		A614F3A217B26A1800951614 /* Planet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Planet.mm; sourceTree = "<group>"; };
 		A614F3A317B26A1800951614 /* SkyWalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyWalker.h; sourceTree = "<group>"; };
-		A614F3A417B26A1800951614 /* SkyWalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyWalker.m; sourceTree = "<group>"; };
-		A614F3AB17B26A3200951614 /* Galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Galaxy.h; sourceTree = "<group>"; };
-		A614F3AC17B26A3200951614 /* Galaxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Galaxy.m; sourceTree = "<group>"; };
+		A614F3A417B26A1800951614 /* SkyWalker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkyWalker.mm; sourceTree = "<group>"; };
 		A614F3AE17B26ED400951614 /* Cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cluster.h; sourceTree = "<group>"; };
 		A614F3AF17B26ED400951614 /* Cluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cluster.m; sourceTree = "<group>"; };
 		A6306AAF17B482280002C0A8 /* MathDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathDef.h; sourceTree = "<group>"; };
@@ -70,6 +69,10 @@
 		A63569DC17B4C70900A05F11 /* ScientificNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScientificNumber.cpp; sourceTree = "<group>"; };
 		A63569DD17B4C70900A05F11 /* ScientificNumber.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = ScientificNumber.h; sourceTree = "<group>"; };
 		A63569DF17B4C7A300A05F11 /* ConstDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstDef.h; sourceTree = "<group>"; };
+		A63DA1ED17B5D60300E5347C /* ObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectView.h; sourceTree = "<group>"; };
+		A63DA1EE17B5D60300E5347C /* ObjectView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectView.mm; sourceTree = "<group>"; };
+		A63DA1F017B61D5600E5347C /* Galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Galaxy.h; sourceTree = "<group>"; };
+		A63DA1F117B61D5600E5347C /* Galaxy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Galaxy.mm; sourceTree = "<group>"; };
 		A6E4B20917B38518005515C8 /* MassObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassObject.h; sourceTree = "<group>"; };
 		A6E4B20A17B38518005515C8 /* MassObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MassObject.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,16 +153,18 @@
 			isa = PBXGroup;
 			children = (
 				A63569D817B4C6D400A05F11 /* MathDef */,
+				A63DA1ED17B5D60300E5347C /* ObjectView.h */,
+				A63DA1EE17B5D60300E5347C /* ObjectView.mm */,
+				A614F3A117B26A1800951614 /* Planet.h */,
+				A614F3A217B26A1800951614 /* Planet.mm */,
+				A614F3A317B26A1800951614 /* SkyWalker.h */,
+				A614F3A417B26A1800951614 /* SkyWalker.mm */,
 				A614F3AE17B26ED400951614 /* Cluster.h */,
 				A614F3AF17B26ED400951614 /* Cluster.m */,
-				A614F3AB17B26A3200951614 /* Galaxy.h */,
-				A614F3AC17B26A3200951614 /* Galaxy.m */,
-				A614F3A117B26A1800951614 /* Planet.h */,
-				A614F3A217B26A1800951614 /* Planet.m */,
-				A614F3A317B26A1800951614 /* SkyWalker.h */,
-				A614F3A417B26A1800951614 /* SkyWalker.m */,
+				A63DA1F017B61D5600E5347C /* Galaxy.h */,
+				A63DA1F117B61D5600E5347C /* Galaxy.mm */,
 				A614F36A17B24B6900951614 /* UniverseViewController.h */,
-				A614F36B17B24B6900951614 /* UniverseViewController.m */,
+				A614F36B17B24B6900951614 /* UniverseViewController.mm */,
 				A614F36C17B24B6900951614 /* UniverseViewController.xib */,
 				A614F36F17B24D7200951614 /* TheTime.h */,
 				A614F37017B24D7200951614 /* TheTime.m */,
@@ -253,15 +258,16 @@
 				A614F35117B24A7100951614 /* main.m in Sources */,
 				A614F35517B24A7100951614 /* AppDelegate.m in Sources */,
 				A614F35E17B24A7100951614 /* ViewController.m in Sources */,
-				A614F36D17B24B6900951614 /* UniverseViewController.m in Sources */,
+				A614F36D17B24B6900951614 /* UniverseViewController.mm in Sources */,
 				A614F37117B24D7200951614 /* TheTime.m in Sources */,
-				A614F3A817B26A1800951614 /* Planet.m in Sources */,
-				A614F3A917B26A1800951614 /* SkyWalker.m in Sources */,
-				A614F3AD17B26A3200951614 /* Galaxy.m in Sources */,
+				A614F3A817B26A1800951614 /* Planet.mm in Sources */,
+				A614F3A917B26A1800951614 /* SkyWalker.mm in Sources */,
 				A614F3B017B26ED400951614 /* Cluster.m in Sources */,
 				A6E4B20B17B38519005515C8 /* MassObject.cpp in Sources */,
 				A63569DB17B4C6EE00A05F11 /* Vector.cpp in Sources */,
 				A63569DE17B4C70900A05F11 /* ScientificNumber.cpp in Sources */,
+				A63DA1EF17B5D60400E5347C /* ObjectView.mm in Sources */,
+				A63DA1F217B61D5600E5347C /* Galaxy.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

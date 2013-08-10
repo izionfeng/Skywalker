@@ -10,7 +10,7 @@
 
 @interface MemberShell : NSObject
 
-@property (nonatomic, assign, readonly) id member;
+@property (nonatomic, assign, readonly) ObjectView* member;
 @end
 
 @implementation MemberShell
@@ -52,7 +52,7 @@
     return self;
 }
 
--(void)addMember:(id)member
+-(void)addMember:(ObjectView*)member
 {
     MemberShell *shell=[[MemberShell alloc] initWithMember:member];
     if (NO==[_memberShellList containsObject:shell])
@@ -62,7 +62,7 @@
     
 }
 
--(void)removeMember:(id)member
+-(void)removeMember:(ObjectView*)member
 {
     for (MemberShell *shell in _memberShellList)
     {

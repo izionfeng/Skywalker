@@ -8,8 +8,6 @@
 
 #import "SkyWalker.h"
 
-static SkyWalker *defaultInstance;
-
 @implementation SkyWalker
 
 - (id)initWithFrame:(CGRect)frame
@@ -21,28 +19,19 @@ static SkyWalker *defaultInstance;
     return self;
 }
 
--(id)init
+-(CGFloat)viewRadius
 {
-    self=[super init];
-    if (self)
-    {
-        self.bounds=CGRectMake(0, 0, 5, 5);
-        self.backgroundColor=[UIColor yellowColor];
-        _mass=80;
-    }
-    return self;
+    return 10;
 }
 
-+(id)defaultSkyWalker
+-(CGFloat)viewGravitationRadius
 {
-    @synchronized([self class])
-    {
-        if (nil==defaultInstance)
-        {
-            defaultInstance=[[SkyWalker alloc] init];
-        }
-    }
-    return defaultInstance;
+    return 0;
+}
+
+-(UIColor*)colorWithMass:(ScientificNumber)mass radius:(ScientificNumber)radius
+{
+    return [UIColor yellowColor];
 }
 
 /*
