@@ -14,22 +14,22 @@
 class Vector
 {
 public:
-    ScientificNumber *x;
-    ScientificNumber *y;
+    ScientificNumber x;
+    ScientificNumber y;
     static Vector Zero;
     ~Vector();
-    Vector():x(nullptr),y(nullptr){};
-    Vector(const ScientificNumber &x_,const ScientificNumber &y_):x(new ScientificNumber(x_)),y(new ScientificNumber(y_)){};
-    Vector(const Vector &vec):x(new ScientificNumber(*vec.x)),y(new ScientificNumber(*vec.y)){};
+    Vector():x(0),y(0){};
+    Vector(const ScientificNumber &x_,const ScientificNumber &y_):x(x_),y(y_){};
+    Vector(const Vector &vec):x(vec.x),y(vec.y){};
     
     const ScientificNumber length();
     void addLength(const ScientificNumber &len);
     void setLength(const ScientificNumber &len);
     
-    Vector operator+(const Vector &vec);
-    Vector operator-(const Vector &vec);
-    Vector operator*(const ScientificNumber &num);
-    Vector operator/(const ScientificNumber &num);
+    Vector operator+(const Vector &vec)const;
+    Vector operator-(const Vector &vec)const;
+    Vector operator*(const ScientificNumber &num)const;
+    Vector operator/(const ScientificNumber &num)const;
     Vector& operator+=(const Vector &vec);
     Vector& operator-=(const Vector &vec);
     Vector& operator*=(const ScientificNumber &num);

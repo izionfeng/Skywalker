@@ -14,15 +14,11 @@ Vector Vector::Zero=Vector(0,0);
 
 Vector::~Vector()
 {
-    delete x;
-    delete y;
-    x=nullptr;
-    y=nullptr;
 }
 
 const ScientificNumber Vector::length()
 {
-    return ((*x)*(*x)+(*y)*(*y)).sqrt();
+    return ((x)*(x)+(y)*(y)).sqrt();
 }
 
 void Vector::setLength(const ScientificNumber &len)
@@ -37,28 +33,28 @@ void Vector::addLength(const ScientificNumber &len)
     (*this)*=((len_old+len)/len_old);
 }
 
-Vector Vector::operator+(const Vector &vec)
+Vector Vector::operator+(const Vector &vec)const
 {
     Vector vec_new(*this);
     vec_new+=vec;
     return vec_new;
 }
 
-Vector Vector::operator-(const Vector &vec)
+Vector Vector::operator-(const Vector &vec)const
 {
     Vector vec_new(*this);
     vec_new-=vec;
     return vec_new;
 }
 
-Vector Vector::operator*(const ScientificNumber &num)
+Vector Vector::operator*(const ScientificNumber &num)const
 {
     Vector vec_new(*this);
     vec_new*=num;
     return vec_new;
 }
 
-Vector Vector::operator/(const ScientificNumber &num)
+Vector Vector::operator/(const ScientificNumber &num)const
 {
     Vector vec_new(*this);
     vec_new/=num;
@@ -67,29 +63,29 @@ Vector Vector::operator/(const ScientificNumber &num)
 
 Vector& Vector::operator+=(const Vector &vec)
 {
-    (*x)+=(*vec.x);
-    (*y)+=(*vec.y);
+    (x)+=(vec.x);
+    (y)+=(vec.y);
     return *this;
 }
 
 Vector& Vector::operator-=(const Vector &vec)
 {
-    (*x)-=(*vec.x);
-    (*y)-=(*vec.y);
+    (x)-=(vec.x);
+    (y)-=(vec.y);
     return *this;
 }
 
 Vector& Vector::operator*=(const ScientificNumber &num)
 {
-    (*x)*=num;
-    (*y)*=num;
+    (x)*=num;
+    (y)*=num;
     return *this;
 }
 
 Vector& Vector::operator/=(const ScientificNumber &num)
 {
-    (*x)/=num;
-    (*y)/=num;
+    (x)/=num;
+    (y)/=num;
     return *this;
 }
 
